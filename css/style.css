@@ -1,0 +1,66 @@
+h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+.canvas {
+  border: 1px black inset;
+  position: absolute;
+  top: 60px;
+  bottom: 0px;
+  left: 100px;
+  right: 0px;
+  background-color: #F9FBFF;
+}
+
+#canvas-draft {
+  background-color: transparent;
+}
+body {
+  overflow: hidden;
+}
+#canvas-container {
+  height: 610px;
+}
+
+.container {
+  background-image: linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+}
+
+.toolbox {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ background-image: linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  padding: 0.5%;
+}
+.tool{
+  display: flex;
+  width: 8%;
+  margin: 0, auto;
+  
+}
+
+.selectorDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.5%;
+  background-image: linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+  margin: 0, auto;
+  box-shadow: 10px 5px 5px black;
+}
+
+img:hover {
+  background-color: #2413e331;
+}
+
+img:active {
+  background-color: #3016f7;
+  box-shadow: 0 5px rgb(19, 18, 18);
+  transform: translateY(2px); 
+
+}
